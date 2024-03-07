@@ -1,0 +1,31 @@
+{
+  "name": "user_app",
+  "version": "1.0.0",
+  "description": "users single_page_application",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --env-file .env .",
+    "debug": "nodemon --env-file .env --inspect-brk ."
+  },
+  "keywords": [
+    "users",
+    "image_upload",
+    "SPA",
+    "API"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
